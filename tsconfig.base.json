@@ -14,7 +14,27 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@frontend/home-page/application": [
+        "libs/frontend/home-page/application/src/index.ts"
+      ],
+      "@frontend/home-page/data-access": [
+        "libs/frontend/home-page/data-access/src/index.ts"
+      ],
+      "@frontend/home-page/feature": [
+        "libs/frontend/home-page/feature/src/index.ts"
+      ],
+      "@frontend/home-page/feature-text-slides": [
+        "libs/frontend/home-page/feature-text-slides/src/index.ts"
+      ],
+      "@frontend/home-page/ui-tasks-links": [
+        "libs/frontend/home-page/ui-tasks-links/src/index.ts"
+      ],
+      "@frontend/shared/feature-header": [
+        "libs/frontend/shared/feature-header/src/index.ts"
+      ],
+      "@frontend/shell": ["libs/frontend/shell/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
