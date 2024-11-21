@@ -1,13 +1,12 @@
+import { TuiRoot } from '@taiga-ui/core';
 import { Component } from '@angular/core';
-import { NxWelcomeComponent } from './nx-welcome.component';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent],
+  imports: [RouterOutlet, TuiRoot],
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
-export class AppComponent {
-  title = 'frontend';
-}
+export class AppComponent {}

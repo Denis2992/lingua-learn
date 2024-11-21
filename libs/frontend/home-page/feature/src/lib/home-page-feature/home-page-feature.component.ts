@@ -1,10 +1,11 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
+
+import { SharedFeatureHeaderComponent } from '@frontend/shared/feature-header';
 
 @Component({
   selector: 'lib-home-page-feature',
   standalone: true,
-  imports: [CommonModule],
+  imports: [SharedFeatureHeaderComponent],
   templateUrl: './home-page-feature.component.html',
   styleUrl: './home-page-feature.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,

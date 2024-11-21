@@ -1,1 +1,3 @@
-export * from './lib/shell/shell.component';
+export * from './lib/shell/lingua-learn.component';
+
+export * from './lib/routing/routes';
