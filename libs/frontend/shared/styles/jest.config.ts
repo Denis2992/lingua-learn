@@ -1,8 +1,8 @@
 export default {
-  displayName: 'home-page-data-access',
+  displayName: 'frontend-shared-styles',
   preset: '../../../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: '../../../../coverage/libs/frontend/home-page/data-access',
+  coverageDirectory: '../../../../coverage/libs/frontend/shared/styles',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',

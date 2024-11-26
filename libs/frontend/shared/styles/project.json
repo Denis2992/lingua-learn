@@ -1,16 +1,16 @@
 {
-  "name": "home-page-data-access",
+  "name": "frontend-shared-styles",
   "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "libs/frontend/home-page/data-access/src",
+  "sourceRoot": "libs/frontend/shared/styles/src",
   "prefix": "lib",
   "projectType": "library",
-  "tags": ["type:data-access", "scope:home-page"],
+  "tags": ["scope:shared"],
   "targets": {
     "test": {
       "executor": "@nx/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
       "options": {
-        "jestConfig": "libs/frontend/home-page/data-access/jest.config.ts"
+        "jestConfig": "libs/frontend/shared/styles/jest.config.ts"
       }
     },
     "lint": {
