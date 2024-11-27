@@ -1,7 +1,6 @@
-@import url('@taiga-ui/core/styles/taiga-ui-local.less');
+@import url('@taiga-ui/core/styles/taiga-ui-local');
 
-/* stylelint-disable */
-// TODO to separe styles
+/* TODO to separe styles */
 @mixin breakpoint-mobile {
   @media #{$tui-mobile-interval} {
     @content;
@@ -21,13 +20,13 @@
 }
 
 @mixin breakpoint-desktop-medium {
-  @media (min-width: 1280px) and (max-width: 1439px) {
+  @media (width >= 1280px) and (width <= 1439px) {
     @content;
   }
 }
 
 @mixin breakpoint-desktop-large {
-  @media (min-width: 1440px) {
+  @media (width >= 1440px) {
     @content;
   }
 }
@@ -37,7 +36,6 @@
     @content;
   }
 }
-/* stylelint-enable */
 
 .home-page {
   width: 100%;
