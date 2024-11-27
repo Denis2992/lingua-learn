@@ -1,41 +1,4 @@
-@import '@taiga-ui/core/styles/taiga-ui-local';
-
-/* TODO to separe styles */
-@mixin breakpoint-mobile {
-  @media #{$tui-mobile-interval} {
-    @content;
-  }
-}
-
-@mixin breakpoint-tablet {
-  @media #{$tui-tablet-interval} {
-    @content;
-  }
-}
-
-@mixin breakpoint-desktop-small {
-  @media #{$tui-desktop-interval} {
-    @content;
-  }
-}
-
-@mixin breakpoint-desktop-medium {
-  @media (width >= 1280px) and (width <= 1439px) {
-    @content;
-  }
-}
-
-@mixin breakpoint-desktop-large {
-  @media (width >= 1440px) {
-    @content;
-  }
-}
-
-@mixin breakpoint-up($bp) {
-  @media (min-width: $bp) {
-    @content;
-  }
-}
+@import 'libs/frontend/shared/styles/src/index';
 
 .home-page {
   width: 100%;
