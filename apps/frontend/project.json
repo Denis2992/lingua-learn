@@ -31,7 +31,7 @@
           "apps/frontend/src/styles.scss",
           "@taiga-ui/core/styles/taiga-ui-theme.less",
           "@taiga-ui/core/styles/taiga-ui-fonts.less",
-          "@taiga-ui/core/styles/taiga-ui-local.scss"
+          "@taiga-ui/core/styles/taiga-ui-local.less"
         ],
         "scripts": [],
         "server": "apps/frontend/src/main.server.ts",
