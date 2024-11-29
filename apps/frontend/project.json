@@ -17,10 +17,7 @@
         "tsConfig": "apps/frontend/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
         "assets": [
-          {
-            "glob": "**/*",
-            "input": "apps/frontend/public"
-          },
+          "apps/frontend/src/assets",
           {
             "glob": "**/*",
             "input": "node_modules/@taiga-ui/icons/src",
@@ -29,6 +26,8 @@
         ],
         "styles": [
           "apps/frontend/src/styles.scss",
+          "@taiga-ui/core/styles/taiga-ui-theme.less",
+          "@taiga-ui/core/styles/taiga-ui-fonts.less",
           "@taiga-ui/core/styles/taiga-ui-local.scss"
         ],
         "scripts": [],

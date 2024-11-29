@@ -1,4 +1,5 @@
 @import '@taiga-ui/core/styles/taiga-ui-local';
+@import './variables';
 
 @mixin breakpoint-mobile {
   @media #{$tui-mobile-interval} {
@@ -12,20 +13,22 @@
   }
 }
 
-@mixin breakpoint-desktop-small {
+@mixin breakpoint-desktop-sm {
   @media #{$tui-desktop-interval} {
     @content;
   }
 }
 
-@mixin breakpoint-desktop-medium {
-  @media (width >= 1280px) and (width <= 1439px) {
+@mixin breakpoint-desktop-m {
+  @media (min-width:
+  #{$bp-9}) and (max-width: #{$bp-10} - 1px) {
     @content;
   }
 }
 
-@mixin breakpoint-desktop-large {
-  @media (width >= 1440px) {
+@mixin breakpoint-desktop-lg {
+  @media (min-width:
+  #{$bp-10}) {
     @content;
   }
 }

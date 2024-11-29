@@ -1,10 +1,11 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { TuiButton } from '@taiga-ui/core';
+import { HeaderLogoComponent } from '../components/logo/header-logo.component';
 
 @Component({
   selector: 'shared-feature-header',
   standalone: true,
-  imports: [CommonModule],
+  imports: [TuiButton, HeaderLogoComponent],
   templateUrl: './shared-feature-header.component.html',
   styleUrl: './shared-feature-header.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
