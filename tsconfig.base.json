@@ -33,7 +33,7 @@
       "@frontend/shared/feature-header": [
         "libs/frontend/shared/feature-header/src/index.ts"
       ],
-      "@frontend/shared/styles": ["libs/frontend/shared/styles/src/index.ts"],
+      "@frontend/shared/styles": ["libs/frontend/shared/styles/src/index.scss"],
       "@frontend/shell": ["libs/frontend/shell/src/index.ts"]
     }
   },
