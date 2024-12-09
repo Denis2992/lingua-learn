@@ -4,7 +4,6 @@ import { HeaderLogoComponent } from '../components/logo/header-logo.component';
 
 @Component({
   selector: 'shared-feature-header',
-  standalone: true,
   imports: [TuiButton, HeaderLogoComponent],
   templateUrl: './shared-feature-header.component.html',
   styleUrl: './shared-feature-header.component.scss',

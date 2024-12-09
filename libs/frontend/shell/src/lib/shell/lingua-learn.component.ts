@@ -5,7 +5,6 @@ import { SharedFeatureHeaderComponent } from '@frontend/shared/feature-header';
 
 @Component({
   selector: 'lingua-learn',
-  standalone: true,
   imports: [RouterOutlet, SharedFeatureHeaderComponent],
   templateUrl: './lingua-learn.component.html',
   styleUrl: './lingua-learn.component.scss',

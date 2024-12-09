@@ -3,7 +3,7 @@
   "rules": {
     "type-enum": [2, "always", ["feat", "fix", "hotfix", "refactor"]],
     "type-empty": [2, "never"],
-    "scope-enum": [2, "always", ["home-page", "style", "settings"]],
+    "scope-enum": [2, "always", ["home-page", "style", "settings", "nx"]],
     "scope-empty": [2, "never"]
   }
 }
