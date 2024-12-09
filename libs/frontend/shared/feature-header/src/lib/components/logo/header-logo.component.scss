@@ -1,0 +1,20 @@
+@import '@frontend/shared/styles';
+
+.logo {
+  font-family: Marhey, sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: auto;
+  background: linear-gradient(
+    180deg,
+    rgb(255 255 255 / 100%) 30%,
+    rgb(28 53 120 / 100%) 45%,
+    rgb(228 24 28 / 100%) 60%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  @include breakpoint-up(1024px) {
+    font-size: 75px;
+  }
+}

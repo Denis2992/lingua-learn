@@ -1,0 +1,20 @@
+@import '@frontend/shared/styles';
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px 16px;
+
+  @include breakpoint-up(1024px) {
+    // display: flex;
+    // justify-content: space-between;
+    // align-items: center;
+    // margin: 0 32px;
+  }
+
+  &__admin-btn {
+    // display: none;
+    margin-right: 16px;
+  }
+}

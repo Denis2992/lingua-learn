@@ -1,0 +1,40 @@
+@import '@taiga-ui/core/styles/taiga-ui-local';
+@import './variables';
+
+@mixin breakpoint-mobile {
+  @media #{$tui-mobile-interval} {
+    @content;
+  }
+}
+
+@mixin breakpoint-tablet {
+  @media #{$tui-tablet-interval} {
+    @content;
+  }
+}
+
+@mixin breakpoint-desktop-sm {
+  @media #{$tui-desktop-interval} {
+    @content;
+  }
+}
+
+@mixin breakpoint-desktop-m {
+  @media (min-width:
+  #{$bp-9}) and (max-width: #{$bp-10} - 1px) {
+    @content;
+  }
+}
+
+@mixin breakpoint-desktop-lg {
+  @media (min-width:
+  #{$bp-10}) {
+    @content;
+  }
+}
+
+@mixin breakpoint-up($bp) {
+  @media (min-width: $bp) {
+    @content;
+  }
+}
